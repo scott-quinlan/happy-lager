@@ -14,4 +14,3 @@ USER www-data
 # the user is `www-data`, so we copy the files using the user and group
 COPY --chown=www-data:www-data --from=vendor /app/vendor/ /app/vendor/
 COPY --chown=www-data:www-data . .
-#bump
