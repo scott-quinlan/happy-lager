@@ -15,4 +15,3 @@ USER www-data
 COPY --chown=www-data:www-data --from=vendor /app/vendor/ /app/vendor/
 COPY --chown=www-data:www-data . .
 
-
